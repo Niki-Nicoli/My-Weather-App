@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="Styling.css" />
   </head>
   <body>
-    <form>
+    <div class= "container">  
+  <form class="form-information">
       <input class="Search" type="search" placeholder="enter a city" required />
       <input class="Submit" type="submit" value="search" />
     </form>
     <main>
-      <div>
-        <h1>New York City</h1>
-        Saturday 8:45 AM, partially cloudy
+            <div class="weather-data">        <div><h1>New York City</h1>
+        Saturday 8:45 AM, <span>partially cloudy</span>
         <br />
-        Humidity: 50%, Wind: 8 mph
+        Humidity: <span>50%</span>, Wind: <span>8 mph</span>
       </div>
-      <div>🌥️ 33°</div>
+      <div class="temperature-container"><div class="emoji">🌥️</div><div class="temperature">33</div><div class="degree">°F</div></div></div>
     </main>
     <br />
     <footer>

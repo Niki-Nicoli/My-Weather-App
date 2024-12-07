@@ -1,7 +1,22 @@
+body {
+  background-color: #f9f7fe;
+}
+.container {
+  margin: 0 auto;
+  display: block;
+  padding: 25px;
+  background-color: white;
+  width: 500px;
+}
+.form-information {
+  border-bottom: 1px solid gray;
+  padding: 0 0 10px 0;
+}
 .Search {
-  width: 300px;
+  width: 400px;
   padding: 15px;
   border: none;
+  box-shadow: 1px 3px 5px black;
   border-radius: 12px;
   background-color: #f9f7fe;
   margin-right: 8px;
@@ -9,12 +24,38 @@
 .Submit {
   border: none;
   border-radius: 12px;
-  margin: 0;
   padding: 12px 16px;
   background-color: #470d69;
   color: white;
+  box-shadow: 1px 3px 5px black;
 }
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+}
+.temperature-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 15px;
+}
+.temperature {
+  font-size: 75px;
+  font-weight: bold;
+}
+.emoji,
+.degree {
+  font-size: 30px;
+}
+
 footer {
+  border-top: 1px solid gray;
+  padding: 10px 0 0 0;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
