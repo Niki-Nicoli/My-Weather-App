@@ -10,7 +10,7 @@ body {
 }
 .form-information {
   border-bottom: 1px solid gray;
-  padding: 0 0 10px 0;
+  padding-bottom: 15px;
 }
 .Search {
   width: 400px;
