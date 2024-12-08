@@ -8,18 +8,20 @@
      <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class= "container">  
+ <div class= "container">  
   <form class="form-information" id="citySearch">
-      <input class="Search" type="search" placeholder="enter a city" id="searchForm" required />
+      <input class="Search" type="text" placeholder="enter a city" id="searchForm" required />
       <input class="Submit" type="submit" value="search" />
     </form>
     <main>
-            <div class="weather-data">        <div><h1>New York City</h1>
-        Saturday 8:45 AM, <span>partially cloudy</span>
+       
+                      <div class="weather-data">        <div><h1></h1>
+                        <span class="date"></span>
+         <span class="condition"></span>
         <br />
-        Humidity: <span>50%</span>, Wind: <span>8 mph</span>
+        Humidity: <span class="humidity"></span >, Wind: <span class="wind"></span>
       </div>
-      <div class="temperature-container"><div class="emoji">🌥️</div><div class="temperature">33</div><div class="degree">°C</div></div></div>
+      <div class="temperature-container"><div class="emoji"></div><div class="temperature">33</div><div class="degree">°C</div></div></div>
     </main>
     <br />
     <footer>

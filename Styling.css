@@ -33,7 +33,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
-span {
+.wind,
+.humidity,
+.condition {
   font-style: italic;
   font-weight: bold;
   color: red;
@@ -45,17 +47,21 @@ span {
   top: 15px;
 }
 .temperature {
-  font-size: 75px;
+  font-size: 60px;
   font-weight: bold;
 }
-.emoji,
 .degree {
   font-size: 30px;
+}
+.emoji {
+  position: relative;
+  bottom: 15px;
+  font-size: 16px;
 }
 
 footer {
   border-top: 1px solid gray;
-  padding: 10px 0 0 0;
+  padding: 10px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
